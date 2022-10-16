@@ -26,4 +26,4 @@ def solution(A, K):
                     s1=s2
     return A
 
-print(solution([3, 8, 9, 7, 6], 0))
+print(solution([0,3,2,9], 5)) 

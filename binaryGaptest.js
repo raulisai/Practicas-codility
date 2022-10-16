@@ -8,7 +8,7 @@ function solution(N) {
   for (var i = 0; i < LongBinary; i++) {
     if (binary[i] == 1) {
       if (FlagCount) {
-        
+        FlagCount = false;
         MaxGapInBinary = Math.max(MaxGapInBinary, MaxGapProspect);
       } else {
         FlagCount = true;
