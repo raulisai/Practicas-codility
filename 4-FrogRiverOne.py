@@ -1,7 +1,4 @@
 
-from unittest import result
-
-
 def solution(X,A):
     N=len(A)
     arr=[0]
